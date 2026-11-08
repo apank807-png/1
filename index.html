@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pankaj's personal portfolio website">
+  <title>PANKAJ | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar container">
+      <a href="#home" class="logo">P<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero container">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span class="gradient-text">PANKAJ</span></h1>
+        <h2>Student | Future Developer | Dreamer</h2>
+        <p class="hero-description">
+          Welcome to my personal portfolio! I am a BCA student at
+          REVA University, passionate about learning technology,
+          improving my skills and building a successful future.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn primary-btn">Explore My Profile <i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn outline-btn">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:YOUR_VALID_EMAIL" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="#contact" aria-label="Contact"><i class="fas fa-user"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <!-- Replace this div with your own profile photograph -->
+        <div class="profile-frame">
+          <div class="profile-placeholder">P</div>
+        </div>
+        <div class="floating-tag"><i class="fas fa-graduation-cap"></i> BCA Student</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little introduction about who I am.</p>
+      </div>
+
+      <div class="about-card reveal">
+        <div class="about-icon"><i class="fas fa-user-astronaut"></i></div>
+        <div>
+          <h3>Hello, I'm Pankaj!</h3>
+          <p>
+            I am from Karnataka and currently pursuing my Bachelor of
+            Computer Applications (BCA) at REVA University.
+            I am interested in technology, cricket and fitness.
+            I believe in working hard, learning continuously and
+            improving myself every day.
+          </p>
+          <p>
+            My goal is to become successful in my career, develop
+            valuable skills and create a better future for myself.
+          </p>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card"><i class="fas fa-location-dot"></i><span>Hometown</span><strong>Karnataka</strong></div>
+        <div class="info-card"><i class="fas fa-university"></i><span>College</span><strong>REVA University</strong></div>
+        <div class="info-card"><i class="fas fa-book-open"></i><span>Course</span><strong>BCA</strong></div>
+        <div class="info-card"><i class="fas fa-dumbbell"></i><span>Interest</span><strong>Fitness</strong></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY LEARNING JOURNEY</p>
+          <h2>My <span class="gradient-text">Education</span></h2>
+          <p>My academic journey so far.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="year-label">10th Standard</span>
+              <h3>St. Johns School</h3>
+              <p>Completed my school education at St. Johns School.</p>
+              <span class="small-label">Academic foundation</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="year-label">12th / PUC</span>
+              <h3>SESDRIPURAM</h3>
+              <p>Completed my pre-university education at SESDRIPURAM.</p>
+              <span class="small-label">Pre-university education</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="year-label">Currently Studying · 1st Year</span>
+              <h3>REVA University</h3>
+              <p>Bachelor of Computer Applications (BCA).</p>
+              <span class="small-label">Undergraduate student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I CAN DO</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+        <p>Skills I have learned and continue to develop.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-laptop"></i></div>
+          <h3>MS Office</h3>
+          <p>Basic computer knowledge and Microsoft Office applications.</p>
+          <div class="skill-line"><span style="width:75%"></span></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h3>C Programming</h3>
+          <p>Learning programming fundamentals using the C language.</p>
+          <div class="skill-line"><span style="width:55%"></span></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-dumbbell"></i></div>
+          <h3>Fitness</h3>
+          <p>Interested in working out, fitness and self-improvement.</p>
+          <div class="skill-line"><span style="width:80%"></span></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Learning</h3>
+          <p>Motivated to learn new things and improve my abilities.</p>
+          <div class="skill-line"><span style="width:70%"></span></div>
+        </div>
+      </div>
+      <p class="note">Note: Skill bars are illustrative, not tested proficiency scores.</p>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="section alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">WHAT I LOVE</p>
+          <h2>Hobbies & <span class="gradient-text">Interests</span></h2>
+          <p>Things I enjoy in my free time.</p>
+        </div>
+
+        <div class="hobby-grid">
+          <div class="hobby-card reveal">
+            <i class="fas fa-baseball-bat-ball"></i>
+            <h3>Cricket</h3>
+            <p>I enjoy cricket and the excitement of sports.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Working Out</h3>
+            <p>I enjoy fitness and building a stronger version of myself.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Technology</h3>
+            <p>I am interested in computers and learning programming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOALS -->
+    <section id="goals" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY FUTURE PLANS</p>
+        <h2>My <span class="gradient-text">Goals</span></h2>
+        <p>My ambitions and dreams for the future.</p>
+      </div>
+
+      <div class="goals-grid">
+        <div class="goal-card reveal">
+          <div class="goal-number">01</div>
+          <i class="fas fa-rocket"></i>
+          <h3>Short-Term Goals</h3>
+          <p>Build a strong foundation in BCA, improve my programming
+             knowledge and develop useful technical skills.</p>
+        </div>
+
+        <div class="goal-card reveal">
+          <div class="goal-number">02</div>
+          <i class="fas fa-chart-line"></i>
+          <h3>Long-Term Goals</h3>
+          <p>Become financially successful, build a rewarding career
+             and achieve my dream of becoming a millionaire.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section alt-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY MILESTONES</p>
+          <h2>My <span class="gradient-text">Achievements</span></h2>
+          <p>Every journey starts with a first step.</p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <i class="fas fa-medal"></i>
+          <h3>My Journey Is Just Beginning</h3>
+          <p>I am currently focusing on learning, improving my skills
+             and creating opportunities for future achievements.</p>
+          <span class="small-label">More milestones to come!</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact <span class="gradient-text">Me</span></h2>
+        <p>Feel free to get in touch with me.</p>
+      </div>
+
+      <div class="contact-card reveal">
+        <div class="contact-icon"><i class="fas fa-paper-plane"></i></div>
+        <h3>Have something to discuss?</h3>
+        <p>I'd be happy to connect, learn and share ideas.</p>
+        <a href="mailto:YOUR_VALID_EMAIL" class="btn primary-btn">
+          <i class="fas fa-envelope"></i> Email Me
+        </a>
+        <p class="contact-note">Update the email link in this file with your correct email address.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="#home" class="logo">P<span>.</span></a>
+      <p>Designed & Built by <strong>PANKAJ</strong></p>
+      <p>© <span id="year"></span> Pankaj. All Rights Reserved.</p>
+      <a href="#home" class="back-top"><i class="fas fa-arrow-up"></i> Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
